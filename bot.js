@@ -121,5 +121,5 @@ client.on('message' , message => {
   
   });
 
-client.login('MzU5MDM0MjQwNzE0OTMyMjI0.DldNoQ.On-y6_ljPoOs3ZqWeKkwiurFGEU');
+client.login(process.env.BOT_TOKEN);
 
